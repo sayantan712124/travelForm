@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+nav{
+    font-family: 'Roboto Condensed', sans-serif ;
+    }
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        height: 65px;
+        background-color: black;
+        color: white;
+        align-items: center; 
+        
+       
+    }
+    nav ul li{
+       padding: 0 12px;
+    }
+    .brand img{
+        width: 274px;
+        padding: 0 8px;
+       
+    }
+    .brand{
+     display:flex;
+     align-items: center;
+     font-weight: bolder;
+     font-size: 1.3rem;
+     
+    }
+    #searchbar{
+        margin: 7px 90px;
+        padding: 10px 20px;
+        margin-left: 189px;
+        
+    }
+    .items{
+        margin: 8px;
+        padding:3px 8px ;
+        margin-left: 45px;
+    }
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+.container h1{
+    text-align: center;
+}
+p{
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+    
+}
+
+input,textarea{
+    width: 80%;
+    margin: 9px;
+    padding: 7px;
+    font-size: 12px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*set flex direction to column because bydefault it sets in row
+    so it shows content horizontally so we have to set it column to
+    show that content in vertically */ 
+    
+    
+}
+.btn{
+    color: white;
+    background: purple;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.submitMsg{ 
+    
+    color: rgb(34, 5, 139);
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
